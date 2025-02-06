@@ -1,0 +1,22 @@
+chmod +x setup
+chmod +x 1.py
+chmod +x menu
+ 
+function h {
+./menu
+}
+functiom m {
+./setup
+}
+echo  1. 120 2.其他功能
+ read -p "请选择操作: " option
+
+    case $option in
+        1)
+            h;;
+        2)
+            m;;
+        3)
+           break;;
+    esac
+    

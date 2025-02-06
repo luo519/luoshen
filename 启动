@@ -1,0 +1,4 @@
+chmod +x setup
+chmod +x 1.py
+chmod +x menu
+./setup
